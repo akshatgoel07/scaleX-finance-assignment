@@ -2,7 +2,7 @@ const Data = require('../models/exchangeData.js');
 
 // Create new data entry
 async function createData(data) {
-    console.log(data)
+    // console.log(data)    
     try {
         const newData = await Data.create(data);
         // console.log(newData)
@@ -10,7 +10,7 @@ async function createData(data) {
     } catch (error) {
         throw error;
     }
-}
+}   
 
 // Retrieve data
 async function getData() {
