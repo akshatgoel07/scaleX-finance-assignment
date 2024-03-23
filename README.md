@@ -7,7 +7,9 @@ Swagger is integrated to document the API endpoints. The documentation includes 
 
 [Link](https://scalex-finance-assignment-production.up.railway.app/api-docs/)
 
+## Screenshot
 
+![Screenshot 1](./screenshots/Swagger.png)
 
 ## Technologies Used:
 Express: A web application framework for Node.js used to handle routing and middleware.
